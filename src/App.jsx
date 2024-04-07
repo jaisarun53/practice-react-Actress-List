@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
 import ActressList from "./ActressList";
+import LaptopList from "./LaptopList";
 const App = () => {
   return (
     <div>
-      <ActressList />
+      {/* <ActressList /> */}
+      <LaptopList />
     </div>
   );
 };
